@@ -1,0 +1,88 @@
+.loginpage11{
+  display: flex;
+}
+.loginpage11 img{
+height: 50px;
+}
+.or 
+{
+  display: flex;
+  transform: translate(100px);
+}
+.or :first-child{
+  transform: translate(0px,-10px);
+
+}
+.or :nth-child(3){
+  transform: translate(0px,-10px);
+
+}
+.loginform1 input{
+  width: 400px;
+  height: 40px;
+  background-color: rgba(0, 255, 255, 0.179);
+  border-radius: 30px;
+  border: none;
+}
+.loginform1 input::placeholder{
+  transform: translate(10px);
+}
+#dd{
+  height: 15px;
+  width: 30px;
+  transform: translate(-50px);
+}
+.loginform1 button{
+  background-color: rgb(95, 255, 186);
+  padding: 10px 70px;
+  border: none;
+  color: white;
+  border-radius: 30px;
+}
+.details1 button{
+padding: 10px 50px ;
+border: none;
+background-color: white;
+border-radius: 30px;
+
+}
+
+
+.details{
+  background: linear-gradient(cyan,rgb(57, 255, 57));
+  color: white;
+  text-align: center;
+  width: 40em;
+  height: 100vh;
+  transform: translate(0px,-45px);
+}
+.dd1{
+  display: flex;
+}
+.loginpage{
+  width: 40em;
+  height: 100vh;
+  text-align: center;
+}
+.icons{
+  display: flex;
+}
+.icons img{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  transform: translateX(200px);
+}
+#symbol{
+  transform: translate(300px);
+  font-size: 50px;
+}
+.details1{
+  transform: translate(0px,100px);
+}
+.details1 h1{
+  font-size: 50px;
+}
+.details p{
+  font-size: 20px;
+}
